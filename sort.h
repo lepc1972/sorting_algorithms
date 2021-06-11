@@ -28,4 +28,7 @@ void swap_int(int *a, int *b);
 /* bubble sort */
 void bubble_sort(int *array, size_t size);
 
+/* insertion sort */
+void insertion_sort_list(listint_t **list);
+
 #endif
