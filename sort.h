@@ -13,9 +13,9 @@
 
 typedef struct listint_s
 {
-    const int n;
-    struct listint_s *prev;
-    struct listint_s *next;
+const int n;
+struct listint_s *prev;
+struct listint_s *next;
 } listint_t;
 
 /* print functions */
@@ -30,5 +30,7 @@ void bubble_sort(int *array, size_t size);
 
 /* insertion sort */
 void insertion_sort_list(listint_t **list);
+void swap_insert(listint_t *pn, listint_t *tmp, listint_t *nn, listint_t **l);
+
 
 #endif
