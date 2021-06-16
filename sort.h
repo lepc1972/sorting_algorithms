@@ -35,5 +35,8 @@ void swap_insert(listint_t *pn, listint_t *tmp, listint_t *nn, listint_t **l);
 /* selection sort*/
 void selection_sort(int *array, size_t size);
 
+/* quick sort */
+void quick_sort(int *array, size_t size);
+
 
 #endif
